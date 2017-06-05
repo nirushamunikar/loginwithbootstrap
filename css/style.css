@@ -1,0 +1,119 @@
+*{
+	margin:0 auto;
+	padding:0;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url('../image/1.jpg');
+
+    /* Full height */
+    min-height: 100%; 
+	width:100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top:-20px;
+	opacity: 0.99;
+	overflow-y:hidden;
+}
+.parallaxA {
+    /* The image used */
+    background-image: url('../image/1.jpg');
+
+    /* Full height */
+    height: 100%; 
+	width:100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top:-20px;
+	opacity: 0.99;
+	overflow-y:hidden;
+}
+.parallaxB {
+    /* The image used */
+    background-image: url('../image/1.jpg');
+
+    /* Full height */
+    height: 100%; 
+	width:100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top:-20px;
+	opacity: 0.99;
+	overflow-y:hidden;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('../image/2.jpg');
+
+    /* Full height */
+    height: 500px; 
+	width:100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ section {
+  position: relative;
+  background-color: transparent !important;
+}
+
+section .img {
+  position: absolute;
+  left:0; top:0;
+  background-size: cover;
+  min-height: 768px;
+  width: 100%;
+
+  opacity: 0.45;
+  background-color:#fff;
+  z-index: -1;
+
+}
+
+section .container {
+  background-color: transparent;
+
+}
+
+section .container .row {
+  background-color: gray;
+  padding: 1.5em;
+}
+.btn{
+	margin-left:30%;
+	padding:5px 25px !important;
+}
+.para{
+	padding:10px;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+.hello{
+    font-size:6em;
+}
+.contactcontent{
+	background:#414a51;
+	padding:30px;
+	text-align:center;
+}
